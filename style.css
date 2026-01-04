@@ -45,12 +45,6 @@
   transform: scale(1.06);
 }
 
-.work-thumb img{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
 
 :root[data-theme="light"] {
   --bg: #f7f7fb;
@@ -227,6 +221,7 @@ h1 {
   color: var(--text);
 }
 
+
 .hero-cta {
   display: flex;
   gap: 12px;
@@ -373,7 +368,6 @@ h1 {
   border: 1px solid var(--border);
   color: var(--muted);
 }
-
 .links{
   display: flex;
   gap: 10px;
@@ -572,6 +566,7 @@ h1 {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
 }
+
 
 
 
