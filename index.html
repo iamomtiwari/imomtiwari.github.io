@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="A clean personal page to showcase work and progress." />
-  <title>Your Name • Work & Progress</title>
+  <meta name="description" content="Om Tiwari • AI & Automation • Projects, progress, publications, and education." />
+  <title>Om Tiwari • AI & Automation</title>
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -15,13 +15,14 @@
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="Home">
         <span class="brand-mark">◆</span>
-        <span class="brand-text">yourname</span>
+        <span class="brand-text">om tiwari</span>
       </a>
 
       <nav class="nav" aria-label="Primary">
-        <a href="#work">Work</a>
-        <a href="#progress">Progress</a>
-        <a href="#about">About</a>
+        <a href="#featured">Featured</a>
+        <a href="#internship">Internship</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
         <a href="#contact" class="pill">Contact</a>
       </nav>
 
@@ -32,74 +33,96 @@
   </header>
 
   <main id="main" class="container">
+    <!-- HERO -->
     <section class="hero" id="top">
       <div class="hero-left">
-        <p class="kicker">Building in public • learning fast</p>
+        <p class="kicker">AI • Automation • Process Mining • GenAI</p>
+
         <h1>
-          A minimal space for my <span class="grad">work</span> and
-          <span class="grad">progress</span>.
+          I’m <span class="grad">Om Tiwari</span> — building AI & automation solutions that
+          <span class="grad">ship faster</span> and <span class="grad">scale cleanly</span>.
         </h1>
+
         <p class="sub">
-          I’m <strong>Your Name</strong>. I ship small experiments, document wins & lessons,
-          and keep everything tidy.
+          AI & Automation Intern at <strong>Curriculum Associates</strong> (Bengaluru).
+          Master’s in CSE @ TIET. I work on AI-powered automation, process visibility, and
+          natural language interfaces for enterprise data.
         </p>
 
+        <div class="chips" aria-label="Highlights">
+          <span class="chip">Bengaluru, India</span>
+          <span class="chip">Python</span>
+          <span class="chip">Azure AI / OpenAI</span>
+          <span class="chip">Automation</span>
+        </div>
+
         <div class="hero-cta">
-          <a class="btn primary" href="#work">See featured work</a>
-          <a class="btn ghost" href="#progress">View progress log</a>
+          <a class="btn primary" href="#internship">See internship work</a>
+          <a class="btn ghost" href="#featured">See projects</a>
+        </div>
+
+        <div class="quick-links" aria-label="Quick links">
+          <a class="quick" href="mailto:imomtiwari@gmail.com">Email</a>
+          <a class="quick" href="https://www.linkedin.com/in/om%EF%BF%BEtiwari-2321641b2" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="quick" href="https://github.com/iamomtiwari" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="quick" href="https://rb.gy/8h77l" target="_blank" rel="noreferrer">Portfolio</a>
         </div>
 
         <div class="stats">
           <div class="stat">
-            <div class="stat-num" data-count="12">0</div>
-            <div class="stat-label">Projects</div>
-          </div>
-          <div class="stat">
             <div class="stat-num" data-count="6">0</div>
-            <div class="stat-label">Months learning</div>
+            <div class="stat-label">Key initiatives</div>
           </div>
           <div class="stat">
-            <div class="stat-num" data-count="48">0</div>
-            <div class="stat-label">Updates posted</div>
+            <div class="stat-num" data-count="4">0</div>
+            <div class="stat-label">Conference papers</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-count="50">0</div>
+            <div class="stat-label">Automation mindset</div>
           </div>
         </div>
       </div>
 
-      <div class="hero-card" role="note" aria-label="Now card">
+      <aside class="hero-card" role="note" aria-label="Now card">
         <div class="card-top">
           <span class="badge">Now</span>
           <span class="muted" id="todayText">Loading date…</span>
         </div>
         <h2 class="card-title">Current focus</h2>
         <ul class="card-list">
-          <li>✨ Improving UI polish & consistency</li>
-          <li>⚡ Shipping one small project weekly</li>
-          <li>🧠 Writing short progress notes</li>
+          <li>⚙️ AI + Automation pipelines (enterprise-ready)</li>
+          <li>🧭 Process mining + operational visibility</li>
+          <li>💬 Natural language access to business data</li>
         </ul>
+        <div class="divider"></div>
         <div class="card-bottom">
           <span class="muted" id="randomLine">Generating something random…</span>
         </div>
-      </div>
+      </aside>
     </section>
 
-    <section class="section" id="work">
+    <!-- FEATURED / GITHUB -->
+    <section class="section" id="featured">
       <div class="section-head">
-        <h2>Featured work</h2>
-        <p class="muted">A few things I’m proud of (replace with your real projects).</p>
+        <h2>Featured projects</h2>
+        <p class="muted">
+          A mix of personal + GitHub work. (You can replace these cards with real repo links.)
+        </p>
       </div>
 
       <div class="grid">
         <article class="work-card">
           <div class="work-thumb" aria-hidden="true"></div>
           <div class="work-body">
-            <h3>Project Aurora</h3>
-            <p>A tiny tool that turns messy notes into a clean summary.</p>
+            <h3>GitHub Project #1</h3>
+            <p>Short 1–2 line description of what it does and why it matters.</p>
             <div class="tags">
-              <span>HTML</span><span>CSS</span><span>JS</span>
+              <span>Python</span><span>GenAI</span><span>Automation</span>
             </div>
             <div class="links">
-              <a href="#" aria-label="Open demo">Demo</a>
-              <a href="#" aria-label="Open code">Code</a>
+              <a href="https://github.com/iamomtiwari" target="_blank" rel="noreferrer">Repo</a>
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
             </div>
           </div>
         </article>
@@ -107,14 +130,14 @@
         <article class="work-card">
           <div class="work-thumb" aria-hidden="true"></div>
           <div class="work-body">
-            <h3>Pulse Dashboard</h3>
-            <p>Beautiful cards + motion for tracking habits and goals.</p>
+            <h3>GitHub Project #2</h3>
+            <p>What problem it solved + your approach (keep it crisp).</p>
             <div class="tags">
-              <span>Design</span><span>UI</span><span>Motion</span>
+              <span>Data</span><span>Azure</span><span>LLM</span>
             </div>
             <div class="links">
-              <a href="#" aria-label="Open case study">Case Study</a>
-              <a href="#" aria-label="Open code">Code</a>
+              <a href="https://github.com/iamomtiwari" target="_blank" rel="noreferrer">Repo</a>
+              <a href="#" target="_blank" rel="noreferrer">Write-up</a>
             </div>
           </div>
         </article>
@@ -122,35 +145,255 @@
         <article class="work-card">
           <div class="work-thumb" aria-hidden="true"></div>
           <div class="work-body">
-            <h3>Atlas Notes</h3>
-            <p>A clean progress journal with tags and weekly highlights.</p>
+            <h3>GitHub Project #3</h3>
+            <p>Something you’re proud of—impact, speedup, or clarity.</p>
             <div class="tags">
-              <span>Content</span><span>Writing</span><span>Systems</span>
+              <span>UI</span><span>Streamlit</span><span>Insights</span>
             </div>
             <div class="links">
-              <a href="#" aria-label="Open preview">Preview</a>
-              <a href="#" aria-label="Open code">Code</a>
+              <a href="https://github.com/iamomtiwari" target="_blank" rel="noreferrer">Repo</a>
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="callout">
+        <div>
+          <strong>Tip:</strong> Send me 3–6 GitHub repo links and I’ll rewrite these cards with real titles,
+          tags, outcomes, and clean one-liners.
+        </div>
+        <a class="btn ghost" href="https://github.com/iamomtiwari" target="_blank" rel="noreferrer">View GitHub</a>
+      </div>
+    </section>
+
+    <!-- INTERNSHIP -->
+    <section class="section" id="internship">
+      <div class="section-head">
+        <h2>Curriculum Associates • AI & Automation Intern</h2>
+        <p class="muted">Business problems → measurable outcomes → scalable pipelines.</p>
+      </div>
+
+      <div class="stack">
+        <article class="case">
+          <div class="case-head">
+            <h3>PDF → PPTX + Keyword Extractor (AI Slide Automation)</h3>
+            <span class="pill-lite">Time saved: 30–50%</span>
+          </div>
+          <p class="muted">
+            Built an AI-driven slide automation pipeline to reduce manual slide creation effort for Magnetic Lit sessions
+            (screenshots, extraction, formatting, template consistency, alt text).
+          </p>
+          <div class="case-grid">
+            <div class="case-box">
+              <h4>Business problem</h4>
+              <p>Manual slide creation is labor-intensive (screenshots/cropping/design consistency) with ~1,800 unique decks.</p>
+            </div>
+            <div class="case-box">
+              <h4>Outcome</h4>
+              <p>Automated draft deck creation in minutes; specialists perform quick final edits; consistent brand formatting.</p>
+            </div>
+            <div class="case-box">
+              <h4>Stack</h4>
+              <p>Copilot • Azure OpenAI (ChatGPT) • Automation pipeline</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-head">
+            <h3>Microsoft Power Automate Process Mining</h3>
+            <span class="pill-lite">Process visibility</span>
+          </div>
+          <p class="muted">
+            Mapped Salesforce order-to-billing and billing-to-address flows to expose deviations, bottlenecks, rework loops,
+            and optimization opportunities.
+          </p>
+          <div class="case-grid">
+            <div class="case-box">
+              <h4>Business value</h4>
+              <p>Data-driven view of real workflows; supports leadership decisions and continuous improvement.</p>
+            </div>
+            <div class="case-box">
+              <h4>What you did</h4>
+              <p>SOQL extraction → Python cleaning/transforms → mapping logic/business rules → process model alignment.</p>
+            </div>
+            <div class="case-box">
+              <h4>Next</h4>
+              <p>Expand to end-to-end coverage across Salesforce + Workday processes.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-head">
+            <h3>Salesforce MCP (Beta) + Copilot + Azure OpenAI</h3>
+            <span class="pill-lite">NL → SOQL</span>
+          </div>
+          <p class="muted">
+            Implemented a proof-of-concept that lets business users query Salesforce data using natural language,
+            returning structured results + plain-language summaries.
+          </p>
+          <div class="case-grid">
+            <div class="case-box">
+              <h4>Prototype</h4>
+              <p>Salesforce MCP via Postman + Azure OpenAI GPT + Streamlit UI + Microsoft Copilot for enterprise.</p>
+            </div>
+            <div class="case-box">
+              <h4>Outcome</h4>
+              <p>Reduced dependence on technical teams; created a reusable architecture for future AI data apps.</p>
+            </div>
+            <div class="case-box">
+              <h4>Bonus</h4>
+              <p>Self-driven implementation through independent research despite limited MCP beta documentation.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="case">
+          <div class="case-head">
+            <h3>NPS Survey Analysis on Snowflake (Cortex + Streamlit)</h3>
+            <span class="pill-lite">Self-serve insights</span>
+          </div>
+          <p class="muted">
+            Building a natural language analytics layer for teacher NPS feedback stored in Snowflake,
+            enabling instant sentiment and theme discovery.
+          </p>
+          <div class="case-grid">
+            <div class="case-box">
+              <h4>Business problem</h4>
+              <p>Data exists, but insight discovery is slow and query-dependent; leadership needs quick answers.</p>
+            </div>
+            <div class="case-box">
+              <h4>Approach</h4>
+              <p>TAG-style experience using Snowflake Cortex Analysis + Cortex Search with Streamlit interface.</p>
+            </div>
+            <div class="case-box">
+              <h4>Outcome</h4>
+              <p>Faster insight turnaround, reduced reliance on data teams, expandable to other CX datasets.</p>
             </div>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="section" id="progress">
+    <!-- HACKATHON -->
+    <section class="section" id="hackathon">
       <div class="section-head">
-        <h2>Progress log</h2>
-        <p class="muted">Short updates. Keep it simple. Keep it consistent.</p>
+        <h2>Hackathon prototypes</h2>
+        <p class="muted">High-velocity builds focused on business value.</p>
       </div>
 
-      <div class="timeline">
+      <div class="grid">
+        <article class="work-card">
+          <div class="work-thumb" aria-hidden="true"></div>
+          <div class="work-body">
+            <h3>AI Intake Form (RAG on Knowledge Base)</h3>
+            <p>Idea submission platform that detects duplicates automatically and improves cross-team collaboration.</p>
+            <div class="tags">
+              <span>RAG</span><span>LLM</span><span>Workflow</span>
+            </div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+              <a href="#" target="_blank" rel="noreferrer">Write-up</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb" aria-hidden="true"></div>
+          <div class="work-body">
+            <h3>Whitespace Navigator (Graph RAG + Neo4j)</h3>
+            <p>Interactive map + graph insights to identify untapped partner schools and decision-maker networks.</p>
+            <div class="tags">
+              <span>Neo4j</span><span>Graph RAG</span><span>React</span>
+            </div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+              <a href="#" target="_blank" rel="noreferrer">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="work-card">
+          <div class="work-thumb" aria-hidden="true"></div>
+          <div class="work-body">
+            <h3>More prototypes</h3>
+            <p>Add hackathon screenshots, lessons learned, and what you’d build next.</p>
+            <div class="tags">
+              <span>Speed</span><span>Impact</span><span>Iteration</span>
+            </div>
+            <div class="links">
+              <a href="#" target="_blank" rel="noreferrer">Gallery</a>
+              <a href="#" target="_blank" rel="noreferrer">Notes</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section class="section" id="research">
+      <div class="section-head">
+        <h2>Research & publications</h2>
+        <p class="muted">Conference papers + applied ML research.</p>
+      </div>
+
+      <div class="paper-list">
+        <article class="paper">
+          <div class="paper-top">
+            <h3>Leveraging Machine Learning for Enhanced Mental Disorder Diagnosis Using EEG Signals</h3>
+            <span class="pill-lite">Conference paper</span>
+          </div>
+          <p class="muted">
+            Add: conference name, year, DOI/link, and your key contributions (dataset, model, results).
+          </p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Paper link</a>
+            <a href="#" target="_blank" rel="noreferrer">Slides</a>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="paper-top">
+            <h3>Review of Address Fixed System Based on Location Intelligence</h3>
+            <span class="pill-lite">Conference paper</span>
+          </div>
+          <p class="muted">
+            Add: venue, year, and 2–3 bullets on findings or proposed system design.
+          </p>
+          <div class="links">
+            <a href="#" target="_blank" rel="noreferrer">Paper link</a>
+            <a href="#" target="_blank" rel="noreferrer">Poster</a>
+          </div>
+        </article>
+
+        <div class="callout">
+          <div>
+            <strong>Add your remaining papers:</strong> Your PDF mentions 4+ conference papers —
+            paste the titles + venues and I’ll format them into this section (with clean citations/links).
+          </div>
+          <a class="btn ghost" href="#contact">Send details</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section" id="education">
+      <div class="section-head">
+        <h2>Education</h2>
+        <p class="muted">Strong foundation + applied research + enterprise impact.</p>
+      </div>
+
+      <div class="timeline edu">
         <div class="entry">
           <div class="dot" aria-hidden="true"></div>
           <div class="entry-body">
             <div class="entry-top">
-              <strong>Week 1</strong>
-              <span class="muted">• Shipped the first version of this site</span>
+              <strong>Thapar Institute of Engineering & Technology (TIET)</strong>
+              <span class="muted">• MTech, Computer Science (Sep 2024 – Jun 2026)</span>
             </div>
-            <p>Set up GitHub Pages, added dark mode, and created project cards.</p>
+            <p>Focus areas: AI/ML, automation, and real-world enterprise applications.</p>
           </div>
         </div>
 
@@ -158,10 +401,10 @@
           <div class="dot" aria-hidden="true"></div>
           <div class="entry-body">
             <div class="entry-top">
-              <strong>Week 2</strong>
-              <span class="muted">• Improved visuals</span>
+              <strong>SRM University</strong>
+              <span class="muted">• BTech, Computer Science (Aug 2020 – Jul 2024)</span>
             </div>
-            <p>Refined spacing, added subtle hover motion, cleaned up typography.</p>
+            <p>Specialization: Artificial Intelligence & Machine Learning (add your highlights/CGPA if you want).</p>
           </div>
         </div>
 
@@ -169,58 +412,59 @@
           <div class="dot" aria-hidden="true"></div>
           <div class="entry-body">
             <div class="entry-top">
-              <strong>Week 3</strong>
-              <span class="muted">• Added a “Now” section</span>
+              <strong>Doon International School</strong>
+              <span class="muted">• Science with Computer Science (2016 – 2020)</span>
             </div>
-            <p>Small personal touch: what I’m focused on right now.</p>
+            <p>Early foundation in programming and problem solving.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
+    <!-- SKILLS -->
+    <section class="section" id="skills">
       <div class="section-head">
-        <h2>About</h2>
-        <p class="muted">A quick intro (edit this to match you).</p>
+        <h2>Skills</h2>
+        <p class="muted">A compact overview (clean + scannable).</p>
       </div>
 
-      <div class="about">
-        <p>
-          I like building clean, fast interfaces and documenting the process.
-          My current goals: ship consistently, learn deeply, and keep improving.
-        </p>
-        <div class="mini-cards">
-          <div class="mini">
-            <h4>Tools</h4>
-            <p class="muted">VS Code • GitHub • Figma</p>
-          </div>
-          <div class="mini">
-            <h4>Strengths</h4>
-            <p class="muted">Consistency • UI polish • Learning</p>
-          </div>
-          <div class="mini">
-            <h4>Open to</h4>
-            <p class="muted">Internships • Freelance • Collaborations</p>
-          </div>
+      <div class="skills">
+        <div class="skill-card">
+          <h3>AI / GenAI</h3>
+          <p class="muted">Azure OpenAI • Prompting • RAG • Graph RAG • Cortex (Snowflake)</p>
+        </div>
+        <div class="skill-card">
+          <h3>Automation</h3>
+          <p class="muted">Power Automate • Process Mining • Pipelines • Enterprise workflows</p>
+        </div>
+        <div class="skill-card">
+          <h3>Data / Engineering</h3>
+          <p class="muted">Python • SOQL • Snowflake • Data cleaning & transformation</p>
         </div>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section class="section" id="contact">
       <div class="section-head">
         <h2>Contact</h2>
-        <p class="muted">Add your links here.</p>
+        <p class="muted">Open to collaborations in AI/ML, automation, and data-driven transformation.</p>
       </div>
 
       <div class="contact">
-        <a class="btn primary" href="mailto:you@example.com">Email me</a>
-        <a class="btn ghost" href="#" target="_blank" rel="noreferrer">GitHub</a>
-        <a class="btn ghost" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn primary" href="mailto:imomtiwari@gmail.com">imomtiwari@gmail.com</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/om%EF%BF%BEtiwari-2321641b2" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/iamomtiwari" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn ghost" href="https://rb.gy/8h77l" target="_blank" rel="noreferrer">Portfolio</a>
+      </div>
+
+      <div class="footer-note muted">
+        Phone: <span class="mono">9918957172</span>
       </div>
     </section>
 
     <footer class="footer">
-      <p class="muted">© <span id="year"></span> Your Name • Built with HTML/CSS/JS</p>
+      <p class="muted">© <span id="year"></span> Om Tiwari • Built with HTML/CSS/JS • GitHub Pages</p>
     </footer>
   </main>
 
@@ -234,10 +478,10 @@
     // --- Random "premium" line ---
     const lines = [
       "Small steps. Clean UI. Real progress.",
-      "Shipping beats perfect. But polish matters.",
-      "Consistency compounds — one update at a time.",
+      "Shipping beats perfect — but polish matters.",
+      "Consistency compounds — one iteration at a time.",
       "Make it simple. Make it fast. Make it feel good.",
-      "Design is the details you don’t notice — until they’re missing."
+      "Build the tool that removes the pain."
     ];
     document.getElementById("randomLine").textContent =
       lines[Math.floor(Math.random() * lines.length)];
